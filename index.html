@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>My Website</title>
+    <style>
+
+        @media (max-width: 768px) {
+            body {
+                background-size: 100% auto; 
+                padding: 50px;
+            }
+        }
+        
+        header {
+            display: flex;
+            padding: 10px;
+            align-items: right;
+            margin: 0.5em;
+            color: #fff;
+        }
+
+        body {
+            background: url(imgs/Default_Create_a_image_of_Bolvar_fordragon_as_the_Lich_king_fr_0\ \(1\).jpg) fixed; 
+            background-size:cover;
+            background-position: center right;
+            background-repeat: no-repeat;
+            height: auto;
+        }
+        footer {
+            max-width: 410px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #081D31;
+            border-radius: 8px;
+            text-align: center;
+            background-color: black;
+            color: #fff;
+            padding: 15px;
+            text-align: left;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#">Expansions</a>
+                    <div class="dropdown-content">
+                        <a href="#">World of Warcraft</a>
+                        <a href="#">The Burning Crusade</a>
+                        <a href="#">The Wrath of the Lich King</a>
+                        <a href="#">Cataclysm</a>
+                        <a href="#">The Mists of Pandaria</a>
+                        <a href="#">The Warlords of Draenor</a>
+                        <a href="#">Legion</a>
+                        <a href="#">The Battle for Azeroth</a>
+                        <a href="#">Dragonflight</a>
+                    </div>
+                </li>
+                
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+    <div class="logo"><img src="imgs/WoW_2.0_logo_old.webp" alt="Logo" width="250px" height="auto"></div>
+    <div class="card">
+        <h1>World of Warcraft expansions</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, justo vel aliquam tincidunt, libero nisi tincidunt libero.</p>
+        <h2>About World of Warcraft</h2>
+        <p>World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) developed and published by Blizzard Entertainment. The game takes place in the fantasy world of Azeroth, where players create characters from a variety of races and classes, each with its own unique abilities and traits. Core gameplay revolves around completing quests, battling monsters, and interacting with other players. Players can explore the vast world, complete quests, battle monsters, and interact with other players. Cooperation and teamwork are often essential to success in group activities like dungeons and raids. Players can engage in both PvE (Player versus Environment) and PvP (Player versus Player) gameplay.</p>
+        <h2>What is an expansion?</h2>
+        <p>Expansions are major updates to the game that introduce new content, features, and storylines. They typically include additional zones to explore, new quests and dungeons, and often raise the level cap. Expansions also frequently introduce new races, classes, and gameplay mechanics. Examples of expansions include "The Burning Crusade," "Wrath of the Lich King," "Cataclysm," "Mists of Pandaria," "Warlords of Draenor," "Legion," "Battle for Azeroth," and "Shadowlands." Each expansion builds upon the existing world and lore of Azeroth, expanding the game's universe and offering new challenges for players to overcome.</p>
+        <h2>Gameplay</h2>
+        
+          <video width="auto" height="auto" controls>
+            <source src="https://www.youtube.com/watch?v=bfXFcubXJq0" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        
+    </div>
+    
+    <script>
+         function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+        // Get the dropdown button
+const dropdownButton = document.querySelector(".dropdown > a");
+
+// Get the dropdown content
+const dropdownContent = document.querySelector(".dropdown-content");
+
+// Toggle the dropdown content when clicking the button
+dropdownButton.addEventListener("click", () => {
+    dropdownContent.classList.toggle("show");
+});
+
+        
+        
+ 
+    </script>
+
+
+
+
+
+    <footer>
+        <p>Blizzard Store</p>
+        <p>World of Warcraft updates</p>
+        <p>World of Warcraft Wiki</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
