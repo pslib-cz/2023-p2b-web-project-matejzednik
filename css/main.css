@@ -20,7 +20,63 @@ header {
     color: #fff;
 }
 
-body {
+.body--index {
+    background-image: url(/imgs/Default_Create_a_image_of_Bolvar_fordragon_as_the_Lich_king_fr_0\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.body--gallery {
+    background-image: url(/imgs/BACKGROUND-GALLERY.JPG);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.body--index {
+    background-image: url(/imgs/Default_Create_a_image_of_Bolvar_fordragon_as_the_Lich_king_fr_0\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.body--index {
+    background-image: url(/imgs/Default_Create_a_image_of_Bolvar_fordragon_as_the_Lich_king_fr_0\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.body--index {
+    background-image: url(/imgs/Default_Create_a_image_of_Bolvar_fordragon_as_the_Lich_king_fr_0\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.body--index {
+    background-image: url(/imgs/Default_Create_a_image_of_Bolvar_fordragon_as_the_Lich_king_fr_0\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.body--index {
+    background-image: url(/imgs/Default_Create_a_image_of_Bolvar_fordragon_as_the_Lich_king_fr_0\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.body--index {
     background-image: url(/imgs/Default_Create_a_image_of_Bolvar_fordragon_as_the_Lich_king_fr_0\ \(1\).jpg);
     background-attachment: fixed;
     background-size:cover;
@@ -180,20 +236,20 @@ nav ul li a:hover {
     }
 }
 /*MENU - KONEC*/ 
+
 /*gallery*/
 
 .gallery {
     display: grid;
-    
-    gap: 10px; /* Gap between images */
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
     gap: 15px;
 }
 
 .gallery__item {
     position: relative;
     overflow: hidden;
+    display: grid;
+    place-items: center;
 }
 
 .gallery__img {
@@ -202,18 +258,19 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
+
 .card--gallery{
-    
+    display: flex;
+    align-items: center;
     margin: 0 auto;
     padding: 20px;
-    
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    
-    
-    
 }
-
+@media only screen and (max-width: 480px) {
+    .card--gallery {
+        justify-content: center; /* Center horizontally on small screens */
+    }
+}
 
 
