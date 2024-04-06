@@ -3,9 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <title>My Website</title>
+
 </head>
 <body>
+    <header>
+        
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Expansions</a>
+                    <div class="dropdown-content">
+                        <a href="#">World of Warcraft</a>
+                        <a href="#">The Burning Crusade</a>
+                        <a href="#">The Wrath of the Lich King</a>
+                        <a href="#">Cataclysm</a>
+                        <a href="#">The Mists of Pandaria</a>
+                        <a href="#">The Warlords of Draenor</a>
+                        <a href="#">Legion</a>
+                        <a href="#">The Battle for Azeroth</a>
+                        <a href="#">Dragonflight</a>
+                    </div>
+                </li>
+                
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+    <div class="logo"><img src="..//imgs/WoW_2.0_logo_old.webp" alt="Logo" width="250px" height="auto"></div>
+    <div class="card card--blue">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+                <img src="../imgs/maxresdefault.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item gallery__item--1">
+                <img src="../imgs/maxresdefault.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item gallery__item--1">
+                <img src="../imgs/maxresdefault.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item gallery__item--1">
+                <img src="../imgs/maxresdefault.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item gallery__item--1">
+                <img src="../imgs/maxresdefault.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item gallery__item--1">
+                <img src="../imgs/maxresdefault.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item gallery__item--1">
+                <img src="../imgs/maxresdefault.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item gallery__item--1">
+                <img src="../imgs/maxresdefault.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item gallery__item--1">
+                <img src="../imgs/maxresdefault.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+
+            <!-- Add more image items here -->
+        </div>
+          
+        
+    </div>
+          
+        
+    </div>
     
+    <script>
+         function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+          
+            const dropdownButton = document.querySelector(".dropdown > a");
+
+            
+            const dropdownContent = document.querySelector(".dropdown-content");
+
+            
+            dropdownButton.addEventListener("click", () => {
+                dropdownContent.classList.toggle("show");
+            });
+
+        
+        
+ 
+    </script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+     
+        const swiper = new Swiper(".swiper",{
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+         
+        })
+    </script>
+    <script type="module">
+        import lightgallery from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/+esm'
+        import lgThumbnail from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/+esm'
+        import lgPager from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/pager/+esm'
+        import lgZoom from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/+esm'
+        import lgAutoplay from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/autoplay/+esm'
+ 
+        lightgallery(document.querySelector('div'),
+        {
+            selector: document.querySelectorAll('div picture img'),
+            plugins: [lgThumbnail, lgPager, lgZoom, lgAutoplay],
+            slideShowAutoplay: true,
+            slideShowInterval:2000,
+        });
+    </script>
+
+
+
+
+    <footer>
+        <p>Blizzard Store</p>
+        <p>World of Warcraft updates</p>
+        <p>World of Warcraft Wiki</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>
