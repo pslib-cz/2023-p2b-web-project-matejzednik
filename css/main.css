@@ -68,10 +68,12 @@ footer {
     color:#DE4A1C;
     background-color: #081D31;
 }
+
 .logo img {
     width: 300px;
     height: auto;
 }
+/*MENU*/
 nav {
     position: relative;
 }
@@ -177,13 +179,16 @@ nav ul li a:hover {
         display: block;
     }
 }
- 
+/*MENU - KONEC*/ 
 /*gallery*/
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    
     gap: 10px; /* Gap between images */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
+    gap: 15px;
 }
 
 .gallery__item {
@@ -194,5 +199,21 @@ nav ul li a:hover {
 .gallery__img {
     width: 100%;
     height: auto;
-    display: block;
+    object-fit: cover;
 }
+
+.card--gallery{
+    
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    
+    
+}
+
+
+
