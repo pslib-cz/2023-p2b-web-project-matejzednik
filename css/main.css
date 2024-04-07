@@ -185,8 +185,8 @@ nav ul li:last-child {
 }
  
 nav ul li a {
+    
     color:#DE4A1C;
-   
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -301,3 +301,228 @@ nav ul li a:hover {
     width: 100vw;
     height: 56.25vw; /* Approximate 16:9 aspect ratio */
 }
+
+/*TBC*/
+.card--tbc{
+    background-color: #7BC74D;
+    
+}
+.dropdown-content--tbc a{
+    background-color: #7BC74D;
+    color:black;
+    
+}
+.dropdown--tbc a{
+    background-color: #7BC74D;
+    color:black;
+
+    
+}
+
+.menu--tbc{
+    background-color: #7BC74D;
+    color:black;
+    
+}
+/*TBC*/
+
+/*WOTLK*/
+.card--wotlk{
+    background-color: #006494;
+    color:#000814;
+}
+.dropdown-content--wotlk a{
+    background-color: #006494;
+    color:#000814;
+    
+}
+.dropdown--wotlk a{
+    background-color: #006494;
+    color:#000814;
+
+    
+}
+
+.menu--wotlk{
+    background-color: #006494;
+    color:#000814;
+    
+}
+
+/*CATA*/
+.card--cata{
+    background-color: #6a040f;
+    color:#03071e;
+}
+.dropdown-content--cata a{
+    background-color: #6a040f;
+    color:#03071e;
+    
+}
+.dropdown--cata a{
+    background-color: #6a040f;
+    color:#03071e;
+
+    
+}
+
+.menu--cata{
+    background-color: #6a040f;
+    color:#03071e;
+    
+}
+/*CATA*/
+
+/*MOP*/
+.card--mop{
+    background-color: #ecf39e;
+    color: #386641;
+    
+}
+.dropdown-content--mop a{
+    background-color: #ecf39e;
+    color: #386641;
+    
+}
+.dropdown--mop a{
+    background-color: #ecf39e;
+    color: #386641;
+
+    
+}
+
+.menu--mop{
+    background-color: #ecf39e;
+    color: #386641;
+    
+}
+/*MOP*/
+
+
+/*WOD*/
+
+.card--wod{
+    background-color: #800e13;
+    color: #250902;
+    opacity: 90%;
+    
+}
+.dropdown-content--wod a{
+    background-color: #800e13;
+    color: #250902;
+    
+}
+.dropdown--wod a{
+    background-color: #800e13;
+    color: #250902;
+
+    
+}
+
+.menu--wod{
+    background-color: #800e13;
+    color: #250902;
+    
+}
+
+/*WOD*/
+
+/*LEGION*/
+.card--legion{
+    background-color: green;
+    color:black;
+    
+}
+.dropdown-content--legion a{
+    background-color: green;
+    color:black;
+    
+}
+.dropdown--legion a{
+    background-color: green;
+    color:black;
+
+    
+}
+
+.menu--legion{
+    background-color: green;
+    color:black;
+    
+}
+/*LEGION*/
+
+/*BFA*/
+.card--bfa{
+    background-color: #1a1423;
+    color:#ab8476;
+    opacity: 90%;
+    
+}
+.dropdown-content--bfa a{
+    background-color: #1a1423;
+    color:#ab8476;
+}
+.dropdown--bfa a{
+    background-color: #1a1423;
+    color:#ab8476;
+
+    
+}
+
+.menu--bfa{
+    background-color: #1a1423;
+    color:#ab8476;
+    
+}
+/*BFA*/
+
+/*Shadowlands*/
+.card--shadowlands{
+    background-color: #001D3D;
+    color:#006494;
+    opacity: 90%;
+    
+}
+.dropdown-content--shadowlands a{
+    background-color: #001D3D;
+    color:#006494;
+}
+.dropdown--shadowlands a{
+    background-color: #001D3D;
+    color:#006494;
+
+    
+}
+
+.menu--shadowlands{
+    background-color: #001D3D;
+    color:#006494;
+    
+}
+/*Shadowlands*/
+
+/*Dragonflight*/
+.card--dragonflight{
+    background-color: #370617;
+    color:#e85d04;
+    
+    
+}
+.dropdown-content--dragonflight a{
+    background-color: #370617;
+    color:#e85d04;
+}
+.dropdown--dragonflight a{
+    background-color: #370617;
+    color:#e85d04;
+
+    
+}
+
+.menu--dragonflight{
+    background-color: #370617;
+    color:#e85d04;
+    
+}
+/*Dragonflight*/
