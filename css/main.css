@@ -160,7 +160,7 @@ nav {
  
 nav ul {
     list-style-type: none;
-    width: 200px;
+    width: 250px;
     height: 50px;
     background-color: #081D31;
     margin: 5;
@@ -526,3 +526,47 @@ nav ul li a:hover {
     
 }
 /*Dragonflight*/
+
+
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+    
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    
+    
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form-group button {
+    max-width: 350px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Login Page</title>
+    
+    <body class="body--index">
+        <header>
+            
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Expansions</a>
+                        <div class="dropdown-content">
+                            <a href="./TBC.HTML">The Burning Crusade</a>
+                            <a href="./wotlk.HTML">The Wrath of the Lich King</a>
+                            <a href="./CATA.HTML">Cataclysm</a>
+                            <a href="./MOP.HTML">The Mists of Pandaria</a>
+                            <a href="./WOD.HTML">The Warlords of Draenor</a>
+                            <a href="./LEGION.HTML">Legion</a>
+                            <a href="./BFA.HTML">The Battle for Azeroth</a>
+                            <a href="./SHADOWLANDS.HTML">Shadowlands</a>
+                            <a href="./DRAGONFLIGHT.HTML">Dragonflight</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+                <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            </nav>
+        </header>
+        <div class="logo"><img src="../imgs/WoW_2.0_logo_old.webp" alt="Logo" width="250" style="height:auto"></div>
+        <div class="card card--blue">
+            <div class="container">
+                <h1>Login</h1>
+                <form action="/login" method="post">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+              
+            
+        </div>
+        
+        <script>
+             function toggleMenu() {
+                var menu = document.querySelector('.menu');
+                menu.classList.toggle('active');
+            }
+              
+                const dropdownButton = document.querySelector(".dropdown > a");
+    
+                
+                const dropdownContent = document.querySelector(".dropdown-content");
+    
+                
+                dropdownButton.addEventListener("click", () => {
+                    dropdownContent.classList.toggle("show");
+                });
+    
+            
+            
+     
+        </script>
+</body>
+</html>
