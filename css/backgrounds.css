@@ -2,7 +2,7 @@
     background-image: url(/imgs/Default_Create_a_image_of_Bolvar_fordragon_as_the_Lich_king_fr_0\ \(1\).jpg);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -10,7 +10,7 @@
     background-image: url(/imgs/BACKGROUND-GALLERY.JPG);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -18,7 +18,7 @@
     background-image: url(/imgs/TBC-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -26,7 +26,7 @@
     background-image: url(/imgs/WOTLK-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -34,7 +34,7 @@
     background-image: url(/imgs/CATA-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -42,7 +42,7 @@
     background-image: url(/imgs/MOP-BACKGROUND.webp);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -50,7 +50,7 @@
     background-image: url(/imgs/WOD-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -58,7 +58,7 @@
     background-image: url(/imgs/LEGION-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -66,15 +66,16 @@
     background-image: url(/imgs/BFA-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
+    
 }
 .body--shadowlands {
     background-image: url(/imgs/SHADOWLANDS-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -82,7 +83,7 @@
     background-image: url(/imgs/DRAGONFLIGHT-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
-    background-position: center right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: auto;
 }
