@@ -7,7 +7,7 @@
     height: auto;
 }
 .body--gallery {
-    background-image: url(/imgs/BACKGROUND-GALLERY.JPG);
+    background-image: url(../imgs/BACKGROUND-GALLERY.JPG);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
@@ -15,7 +15,7 @@
     height: auto;
 }
 .body--tbc {
-    background-image: url(/imgs/TBC-BACKGROUND.jpg);
+    background-image: url(../imgs/TBC-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
@@ -23,7 +23,7 @@
     height: auto;
 }
 .body--wotlk {
-    background-image: url(/imgs/WOTLK-BACKGROUND.jpg);
+    background-image: url(../imgs/WOTLK-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
@@ -31,7 +31,7 @@
     height: auto;
 }
 .body--cata {
-    background-image: url(/imgs/CATA-BACKGROUND.jpg);
+    background-image: url(../imgs/CATA-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
@@ -39,7 +39,7 @@
     height: auto;
 }
 .body--mop {
-    background-image: url(/imgs/MOP-BACKGROUND.webp);
+    background-image: url(../imgs/MOP-BACKGROUND.webp);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
@@ -47,7 +47,7 @@
     height: auto;
 }
 .body--wod{
-    background-image: url(/imgs/WOD-BACKGROUND.jpg);
+    background-image: url(../imgs/WOD-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
@@ -55,7 +55,7 @@
     height: auto;
 }
 .body--legion {
-    background-image: url(/imgs/LEGION-BACKGROUND.jpg);
+    background-image: url(../imgs/LEGION-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
@@ -63,7 +63,7 @@
     height: auto;
 }
 .body--bfa {
-    background-image: url(/imgs/BFA-BACKGROUND.jpg);
+    background-image: url(../imgs/BFA-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
@@ -72,7 +72,7 @@
     
 }
 .body--shadowlands {
-    background-image: url(/imgs/SHADOWLANDS-BACKGROUND.jpg);
+    background-image: url(../imgs/SHADOWLANDS-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
@@ -80,7 +80,7 @@
     height: auto;
 }
 .body--dragonflight {
-    background-image: url(/imgs/DRAGONFLIGHT-BACKGROUND.jpg);
+    background-image: url(../imgs/DRAGONFLIGHT-BACKGROUND.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center center;
